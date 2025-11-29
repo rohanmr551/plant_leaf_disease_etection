@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Smart Plant Doctor</string>
+    <string name="lang_en">English</string>
+    <string name="lang_local">हिंदी</string>
+    <string name="language_label">Language</string>
+    <string name="select_crop">Select Crop</string>
+    <string name="pick_image">Choose Leaf Photo</string>
+    <string name="diagnose_button">Diagnose</string>
+    <string name="confidence_label">Confidence</string>
+    <string name="severity_label">Severity</string>
+    <string name="disease_label">Disease</string>
+    <string name="recommendation_title">Recommendation</string>
+    <string name="note_low_confidence">If the result looks wrong or confidence is low, please retake the photo in good light or consult an expert.</string>
+    <string name="warning_low_confidence">Confidence is low. Try another photo.</string>
+    <string name="healthy_recommendation">No immediate action. Monitor weekly.</string>
+    <string name="mild_recommendation">Remove infected leaves and monitor for spread.</string>
+    <string name="moderate_recommendation">Consider fungicide treatment and observe closely.</string>
+    <string name="severe_recommendation">Consult an expert immediately and treat aggressively.</string>
+    <string name="select_language_placeholder">Select language</string>
+    <string name="uncertainty_warning">⚠️ Result may be uncertain. Capture another image.</string>
+
+    <string-array name="crop_options">
+        <item>Tomato</item>
+        <item>Potato</item>
+        <item>Maize</item>
+        <item>Grape</item>
+        <item>Apple</item>
+    </string-array>
+
+    <string-array name="disease_labels">
+        <item>Tomato - Healthy</item>
+        <item>Tomato - Bacterial Spot</item>
+        <item>Tomato - Early Blight</item>
+        <item>Tomato - Late Blight</item>
+        <item>Potato - Healthy</item>
+        <item>Potato - Early Blight</item>
+        <item>Potato - Late Blight</item>
+        <item>Maize - Healthy</item>
+        <item>Maize - Leaf Blight</item>
+        <item>Maize - Common Rust</item>
+        <item>Grape - Healthy</item>
+        <item>Grape - Black Rot</item>
+        <item>Grape - Leaf Blight</item>
+        <item>Apple - Healthy</item>
+        <item>Apple - Scab</item>
+        <item>Apple - Cedar Rust</item>
+    </string-array>
+
+    <string-array name="severity_labels">
+        <item>Healthy</item>
+        <item>Mild</item>
+        <item>Moderate</item>
+        <item>Severe</item>
+    </string-array>
+</resources>

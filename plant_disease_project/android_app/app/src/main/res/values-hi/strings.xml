@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">स्मार्ट प्लांट डॉक्टर</string>
+    <string name="lang_en">English</string>
+    <string name="lang_local">हिंदी</string>
+    <string name="language_label">भाषा</string>
+    <string name="select_crop">फसल चुनें</string>
+    <string name="pick_image">पत्ता फोटो चुनें</string>
+    <string name="diagnose_button">जांचें</string>
+    <string name="confidence_label">विश्वास</string>
+    <string name="severity_label">गंभीरता</string>
+    <string name="disease_label">रोग</string>
+    <string name="recommendation_title">सलाह</string>
+    <string name="note_low_confidence">यदि परिणाम गलत लगे या विश्वास कम हो तो कृपया अच्छी रोशनी में फोटो दोबारा लें या विशेषज्ञ से सलाह लें।</string>
+    <string name="warning_low_confidence">विश्वास कम है। कृपया नया फोटो लें।</string>
+    <string name="healthy_recommendation">कोई तात्कालिक कार्रवाई नहीं। साप्ताहिक निगरानी करें।</string>
+    <string name="mild_recommendation">संक्रमित पत्ते हटाएं और प्रसार पर नजर रखें।</string>
+    <string name="moderate_recommendation">फफूंदीनाशक उपचार पर विचार करें और करीब से देखें।</string>
+    <string name="severe_recommendation">तुरंत विशेषज्ञ से सलाह लें और उपचार करें।</string>
+    <string name="select_language_placeholder">भाषा चुनें</string>
+    <string name="uncertainty_warning">⚠️ परिणाम अनिश्चित है। दूसरी फोटो लें।</string>
+
+    <string-array name="crop_options">
+        <item>टमाटर</item>
+        <item>आलू</item>
+        <item>मक्का</item>
+        <item>अंगूर</item>
+        <item>सेब</item>
+    </string-array>
+
+    <string-array name="disease_labels">
+        <item>टमाटर - स्वस्थ</item>
+        <item>टमाटर - बैक्टीरियल स्पॉट</item>
+        <item>टमाटर - अर्ली ब्लाइट</item>
+        <item>टमाटर - लेट ब्लाइट</item>
+        <item>आलू - स्वस्थ</item>
+        <item>आलू - अर्ली ब्लाइट</item>
+        <item>आलू - लेट ब्लाइट</item>
+        <item>मक्का - स्वस्थ</item>
+        <item>मक्का - लीफ ब्लाइट</item>
+        <item>मक्का - कॉमन रस्ट</item>
+        <item>अंगूर - स्वस्थ</item>
+        <item>अंगूर - ब्लैक रॉट</item>
+        <item>अंगूर - लीफ ब्लाइट</item>
+        <item>सेब - स्वस्थ</item>
+        <item>सेब - स्कैब</item>
+        <item>सेब - सीडर रस्ट</item>
+    </string-array>
+
+    <string-array name="severity_labels">
+        <item>स्वस्थ</item>
+        <item>हल्का</item>
+        <item>मध्यम</item>
+        <item>गंभीर</item>
+    </string-array>
+</resources>
